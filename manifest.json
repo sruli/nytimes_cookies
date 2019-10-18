@@ -1,0 +1,23 @@
+{
+  "name": "NYTimes Cookies",
+  "version": "1.0",
+  "description": "Delete NYTimes cookies with one click",
+  "permissions": ["cookies", "https://*/", "http://*/", "declarativeContent"],
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/nyt-square-black-16.png",
+    "48": "images/nyt-square-black-48.png",
+    "128": "images/nyt-square-black-128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "images/nyt-square-black-16.png",
+      "48": "images/nyt-square-black-48.png",
+      "128": "images/nyt-square-black-128.png"
+    }
+  }
+}
